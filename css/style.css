@@ -29,17 +29,23 @@
 
 
 .subscribe {
-    /* Bla */
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
 }
 
 
 .blogname {
-    /* Bla */
+    flex: 1;
+    display: flex;
+    justify-content: center;
 }
 
 
 .icon {
-    /* Bla */
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
 }
 
 
