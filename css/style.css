@@ -1,8 +1,8 @@
 .container {
     display: grid;
     border: 1px solid blue;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 6fr 1fr;
+    grid-template-columns: 33vw 33vw 33vw;
+    grid-template-rows: 10vh 80vh 10vh;
     grid-template-areas: 
     "hd hd hd"
     "main main main"
@@ -11,7 +11,7 @@
 
 
 .box {
-    display: flexbox;
+    display: flex;
     border: 1px solid blue;
 }
 
@@ -53,7 +53,7 @@
 .content-container {
     grid-area: main;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     grid-template-columns: fr;
@@ -63,6 +63,8 @@
 
 .article {
     background-color: darksalmon;
+    width: 400px;
+    height: 200px;
 }
 
 
