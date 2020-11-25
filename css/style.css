@@ -1,0 +1,77 @@
+.container {
+    display: grid;
+    border: 1px solid blue;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 6fr 1fr;
+    grid-template-areas: 
+    "hd hd hd"
+    "main main main"
+    "ft ft ft";
+}
+
+
+.box {
+    display: flexbox;
+    border: 1px solid blue;
+}
+
+
+/* Header */
+.header-container{
+    grid-area: hd;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr ;
+    background-color: cornsilk;
+}
+
+
+.subscribe {
+    /* Bla */
+}
+
+
+.blogname {
+    /* Bla */
+}
+
+
+.icon {
+    /* Bla */
+}
+
+
+/* Content */
+.content-container {
+    grid-area: main;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: fr;
+    background-color: cadetblue;
+}
+
+
+.article {
+    background-color: darksalmon;
+}
+
+
+/* Footer */
+.footer-container  {
+    grid-area: ft;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: fr;
+    background-color: darkgray;
+}
+
+
+.imprint {
+    background-color: deeppink;
+}
