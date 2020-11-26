@@ -1,5 +1,33 @@
 @import "style.css";
 
+green {
+    color: green;
+}
+
+
+red {
+    color: red;
+}
+
+
+purple {
+    color: purple;
+}
+
+
+figure {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+button {
+    font-size: 8px;
+    background-color: #FAE6F9;
+}
+
+
 /* Content */
 .content-container {
     grid-area: main;
