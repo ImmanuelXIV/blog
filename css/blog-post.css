@@ -36,8 +36,7 @@ button {
     grid-template-areas: 
     "ct ct ab"
     "ct ct ar"
-    "ct ct el"
-    ;
+    "ct ct el";
 }
 
 
@@ -47,6 +46,8 @@ button {
     padding: 10px;
     grid-area: ct;
     font-size: 6px;
+    border: 1px solid blue;
+    font-family: 'Lora', serif;
 }
 
 
