@@ -15,10 +15,8 @@ purple {
 }
 
 
-figure {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+.twitter-follow-button {
+    font-size: 8px;
 }
 
 
