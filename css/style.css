@@ -13,6 +13,8 @@
 .box {
     display: flex;
     border: 1px solid blue;
+    font-family: 'Lora', serif;
+    line-height: 20px; 
 }
 
 
@@ -24,7 +26,7 @@
     align-items: center;
     justify-content: center;
     grid-template-columns: 1fr 1fr 1fr ;
-    background-color: cornsilk;
+    background-color: white;
 }
 
 
@@ -32,6 +34,7 @@
     flex: 1;
     display: flex;
     justify-content: flex-start;
+    padding-left: 15px;
 }
 
 
@@ -46,25 +49,28 @@
     flex: 1;
     display: flex;
     justify-content: flex-end;
+    padding-right: 15px;
 }
 
 
 /* Content */
 .content-container {
     grid-area: main;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    grid-template-columns: fr;
-    background-color: cadetblue;
+    display: grid;
+    /* flex-direction: row;*/
+    /* align-items: center;*/
+    /* justify-content: center;*/
+    grid-template-rows: 30% 30% 30%;
+    grid-template-columns: 1fr;
+    grid-gap: 15px;
+    padding: 35px;
+    background-color: white;
 }
 
 
 .article {
-    background-color: darksalmon;
-    width: 400px;
-    height: 200px;
+    background-color: white;
+    padding: 10px;
 }
 
 
@@ -76,10 +82,10 @@
     align-items: center;
     justify-content: center;
     grid-template-columns: fr;
-    background-color: darkgray;
+    background-color: #F2F7F8;
 }
 
 
 .imprint {
-    background-color: deeppink;
+    /*background-color: white;*/
 }
