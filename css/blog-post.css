@@ -19,6 +19,7 @@
 
 .blog-article {
     background-color: white;
+    display: inline-block;
     padding: 10px;
     grid-area: main;
     font-size: 6px;
