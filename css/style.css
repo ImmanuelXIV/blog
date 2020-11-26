@@ -1,3 +1,7 @@
+body {
+    font-size: 16px;
+   }
+
 .container {
     display: grid;
     border: 1px solid blue;

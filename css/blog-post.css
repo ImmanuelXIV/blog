@@ -1,0 +1,46 @@
+@import "style.css";
+
+/* Content */
+.content-container {
+    grid-area: main;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+    padding: 35px;
+    background-color: white;
+    grid-template-areas: 
+    "main main ab"
+    "main main ar"
+    "main main el"
+    ;
+}
+
+
+.blog-article {
+    background-color: white;
+    padding: 10px;
+    grid-area: main;
+    font-size: 6px;
+}
+
+
+.about {
+    background-color: rgb(240, 238, 238);
+    padding: 10px;
+    grid-area: ab;
+}
+
+
+.archives {
+    background-color: white;
+    padding: 10px;
+    grid-area: ar;
+}
+
+
+.elsewhere {
+    background-color: white;
+    padding: 10px;
+    grid-area: el;
+}
