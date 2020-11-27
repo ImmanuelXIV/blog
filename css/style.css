@@ -1,5 +1,5 @@
 @import "blog-post.css";
-@import "article-tile.css";
+@import "footer.css";
 
 body {
     font-size: 16px;
@@ -59,6 +59,16 @@ body {
 }
 
 
+.article {
+    display: inline-block;
+    border: 1px solid blue;
+    font-family: 'Lora', serif;
+    background-color: white;
+    padding: 10px;
+    font-size: 12px;
+}
+
+
 /* Content */
 .content-container {
     grid-area: main;
@@ -66,26 +76,36 @@ body {
     /* flex-direction: row;*/
     /* align-items: center;*/
     /* justify-content: center;*/
-    grid-template-rows: 30% 30% 30%;
+    grid-template-rows: 25% 25% 25% 25%;
     grid-template-columns: 1fr;
-    grid-gap: 15px;
+    grid-gap: 8px;
     padding: 35px;
     background-color: white;
 }
 
 
-/* Footer */
-.footer-container  {
-    grid-area: ft;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    grid-template-columns: fr;
-    background-color: #F2F7F8;
-}
+@media (min-width: 600px) and (max-width: 900px) {
+    /* Content */
+    .content-container {
+        grid-area: main;
+        display: grid;
+        /* flex-direction: row;*/
+        /* align-items: center;*/
+        /* justify-content: center;*/
+        grid-template-rows: 25% 25% 25% 25%;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 25px;
+        padding: 60px;
+        background-color: white;
+    }
 
 
-.imprint {
-    /*background-color: white;*/
+    .article {
+        display: inline-block;
+        border: 1px solid blue;
+        font-family: 'Lora', serif;
+        background-color: white;
+        padding: 25px;
+        font-size: 16px;
+    }
 }
