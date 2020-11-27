@@ -7,7 +7,7 @@ body {
 
 .container {
     display: grid;
-    border: 1px solid blue;
+    /*border: 1px solid blue;*/
     grid-template-columns: 33vw 33vw 33vw;
     grid-template-rows: 10vh 80vh 10vh;
     grid-template-areas: 
@@ -18,7 +18,7 @@ body {
 
 .box {
     display: flex;
-    border: 1px solid blue;
+    /*border: 1px solid blue;*/
     font-family: 'Lora', serif;
 }
 
@@ -55,7 +55,7 @@ body {
 
 .article {
     display: inline-block;
-    border: 1px solid blue;
+    border: 1px solid black;
     font-family: 'Lora', serif;
     background-color: white;
     padding: 10px;
@@ -87,7 +87,7 @@ body {
     
     .article {
         display: inline-block;
-        border: 1px solid blue;
+        border: 1px solid black;
         font-family: 'Lora', serif;
         background-color: white;
         padding: 25px;
@@ -109,7 +109,7 @@ body {
 
     .article {
         display: inline-block;
-        border: 1px solid blue;
+        border: 1px solid black;
         font-family: 'Lora', serif;
         background-color: white;
         padding: 25px;
