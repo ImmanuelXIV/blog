@@ -149,3 +149,43 @@ button {
         text-align: right;
     }
 }
+
+
+@media (min-width: 901px) {
+    /* Content */
+    .blog-container{
+        grid-area: main;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 15px;
+        padding: 18px;
+        background-color: white;
+        grid-template-areas: 
+        "ct ct ab"
+        "ct ct ar"
+        "ct ct el";
+    }
+
+
+    .blog-post {
+        font-size: 12px;
+    }
+
+
+    .about {
+        font-size: 12px;
+    }
+
+
+    .archives {
+        text-align: right;
+        font-size: 12px;
+    }
+
+
+    .followus {
+        font-size: 12px;
+        text-align: right;
+    }
+}
