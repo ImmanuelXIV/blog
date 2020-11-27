@@ -1,5 +1,5 @@
 /* Footer */
-.footer-container  {
+footer {
     grid-area: ft;
     display: flex;
     flex-direction: row;
