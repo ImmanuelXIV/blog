@@ -13,6 +13,11 @@ purple {
 }
 
 
+figure {
+    text-align: center;
+}
+
+
 .twitter-follow-button {
     font-size: 8px;
 }
@@ -28,15 +33,16 @@ button {
 .blog-container{
     grid-area: main;
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 15px;
-    padding: 35px;
+    padding: 15px;
     background-color: white;
     grid-template-areas: 
-    "ct ct ab"
-    "ct ct ar"
-    "ct ct el";
+    "ct ct ct"
+    "ct ct ct"
+    "ct ct ct"
+    "ab ar el";
 }
 
 
@@ -75,4 +81,71 @@ button {
     padding: 10px;
     grid-area: el;
     font-size: 6px;
+}
+
+
+@media (min-width: 600px) and (max-width: 900px) {
+    /* Content */
+    .blog-container{
+        grid-area: main;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 15px;
+        padding: 35px;
+        background-color: white;
+        grid-template-areas: 
+        "ct ct ab"
+        "ct ct ar"
+        "ct ct el";
+    }
+
+
+    .blog-post {
+        /*
+        background-color: white;
+        display: inline-block;
+        padding: 10px;
+        grid-area: ct;
+        
+        border: 1px solid blue;
+        font-family: 'Lora', serif;
+        */
+        font-size: 14px;
+    }
+
+
+    .about {
+        /*
+        background-color: rgb(240, 238, 238);
+        display: inline-block;
+        padding: 10px;
+        grid-area: ab;
+        */
+        font-size: 14px;
+    }
+
+
+    .archives {
+        /*
+        background-color: white;
+        display: inline-block;
+        padding: 10px;
+        grid-area: ar;
+        */
+        text-align: right;
+        font-size: 14px;
+    }
+
+
+    .followus {
+        /*
+        background-color: white;
+        display: inline-block;
+        padding: 10px;
+        grid-area: el;
+        */
+        font-size: 14px;
+        text-align: right;
+    }
 }
