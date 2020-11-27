@@ -53,6 +53,11 @@ body {
     padding-right: 15px;
 }
 
+#icon {
+    max-width: 20px;
+    height: auto;
+}
+
 .article {
     display: inline-block;
     border: 1px solid black;

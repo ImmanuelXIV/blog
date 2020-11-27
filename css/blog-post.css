@@ -18,6 +18,11 @@ figure {
     font-size: 8px;
 }
 
+#dummyimg {
+    max-width: 100px;
+    height: auto;
+}
+
 button {
     font-size: 8px;
     background-color: #FAE6F9;
@@ -106,6 +111,11 @@ button {
         font-size: 14px;
         text-align: right;
     }
+
+    #dummyimg {
+        max-width: 150px;
+        height: auto;
+    }
 }
 
 @media (min-width: 901px) {
@@ -140,5 +150,10 @@ button {
     .followus {
         font-size: 12px;
         text-align: right;
+    }
+
+    #dummyimg {
+        max-width: 100px;
+        height: auto;
     }
 }
