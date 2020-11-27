@@ -3,7 +3,7 @@
 
 body {
     font-size: 16px;
-   }
+}
 
 .container {
     display: grid;
@@ -16,13 +16,11 @@ body {
     "ft ft ft";
 }
 
-
 .box {
     display: flex;
     border: 1px solid blue;
     font-family: 'Lora', serif;
 }
-
 
 /* Header */
 .header-container{
@@ -31,10 +29,9 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr;
     background-color: white;
 }
-
 
 .subscribe {
     flex: 1;
@@ -43,13 +40,11 @@ body {
     padding-left: 15px;
 }
 
-
 .blogname {
     flex: 1;
     display: flex;
     justify-content: center;
 }
-
 
 .icon {
     flex: 1;
@@ -57,7 +52,6 @@ body {
     justify-content: flex-end;
     padding-right: 15px;
 }
-
 
 .article {
     display: inline-block;
@@ -68,14 +62,10 @@ body {
     font-size: 12px;
 }
 
-
 /* Content */
 .content-container {
     grid-area: main;
     display: grid;
-    /* flex-direction: row;*/
-    /* align-items: center;*/
-    /* justify-content: center;*/
     grid-template-rows: 25% 25% 25% 25%;
     grid-template-columns: 1fr;
     grid-gap: 8px;
@@ -83,23 +73,18 @@ body {
     background-color: white;
 }
 
-
 @media (min-width: 600px) and (max-width: 900px) {
     /* Content */
     .content-container {
         grid-area: main;
         display: grid;
-        /* flex-direction: row;*/
-        /* align-items: center;*/
-        /* justify-content: center;*/
         grid-template-rows: 33% 33% 33%;
         grid-template-columns: 1fr 1fr;
         grid-gap: 25px;
         padding: 60px;
         background-color: white;
     }
-
-
+    
     .article {
         display: inline-block;
         border: 1px solid blue;
@@ -110,22 +95,17 @@ body {
     }
 }
 
-
 @media (min-width: 901px) {
     /* Content */
     .content-container {
         grid-area: main;
         display: grid;
-        /* flex-direction: row;*/
-        /* align-items: center;*/
-        /* justify-content: center;*/
         grid-template-rows:50% 50%;
         grid-template-columns: 1fr 1fr;
         grid-gap: 35px;
         padding: 100px;
         background-color: white;
     }
-
 
     .article {
         display: inline-block;

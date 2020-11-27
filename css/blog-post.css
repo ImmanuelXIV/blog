@@ -2,32 +2,26 @@ green {
     color: green;
 }
 
-
 red {
     color: red;
 }
-
 
 purple {
     color: purple;
 }
 
-
 figure {
     text-align: center;
 }
-
 
 .twitter-follow-button {
     font-size: 8px;
 }
 
-
 button {
     font-size: 8px;
     background-color: #FAE6F9;
 }
-
 
 /* Content */
 .blog-container{
@@ -45,7 +39,6 @@ button {
     "ab ar el";
 }
 
-
 .blog-post {
     background-color: white;
     display: inline-block;
@@ -56,7 +49,6 @@ button {
     font-family: 'Lora', serif;
 }
 
-
 .about {
     background-color: rgb(240, 238, 238);
     display: inline-block;
@@ -64,7 +56,6 @@ button {
     grid-area: ab;
     font-size: 6px;
 }
-
 
 .archives {
     background-color: white;
@@ -74,7 +65,6 @@ button {
     font-size: 6px;
 }
 
-
 .followus {
     background-color: white;
     display: inline-block;
@@ -82,7 +72,6 @@ button {
     grid-area: el;
     font-size: 6px;
 }
-
 
 @media (min-width: 600px) and (max-width: 900px) {
     /* Content */
@@ -100,56 +89,24 @@ button {
         "ct ct el";
     }
 
-
     .blog-post {
-        /*
-        background-color: white;
-        display: inline-block;
-        padding: 10px;
-        grid-area: ct;
-        
-        border: 1px solid blue;
-        font-family: 'Lora', serif;
-        */
         font-size: 14px;
     }
-
 
     .about {
-        /*
-        background-color: rgb(240, 238, 238);
-        display: inline-block;
-        padding: 10px;
-        grid-area: ab;
-        */
         font-size: 14px;
     }
 
-
     .archives {
-        /*
-        background-color: white;
-        display: inline-block;
-        padding: 10px;
-        grid-area: ar;
-        */
         text-align: right;
         font-size: 14px;
     }
 
-
     .followus {
-        /*
-        background-color: white;
-        display: inline-block;
-        padding: 10px;
-        grid-area: el;
-        */
         font-size: 14px;
         text-align: right;
     }
 }
-
 
 @media (min-width: 901px) {
     /* Content */
@@ -167,22 +124,18 @@ button {
         "ct ct el";
     }
 
-
     .blog-post {
         font-size: 12px;
     }
-
 
     .about {
         font-size: 12px;
     }
 
-
     .archives {
         text-align: right;
         font-size: 12px;
     }
-
 
     .followus {
         font-size: 12px;
