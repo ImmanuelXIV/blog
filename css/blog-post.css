@@ -53,20 +53,26 @@ button {
 
 .about {
     background-color: rgb(240, 238, 238);
+    display: inline-block;
     padding: 10px;
     grid-area: ab;
+    font-size: 6px;
 }
 
 
 .archives {
     background-color: white;
+    display: inline-block;
     padding: 10px;
     grid-area: ar;
+    font-size: 6px;
 }
 
 
-.elsewhere {
+.followus {
     background-color: white;
+    display: inline-block;
     padding: 10px;
     grid-area: el;
+    font-size: 6px;
 }
