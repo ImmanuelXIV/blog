@@ -2,20 +2,26 @@
 @import "footer.css";
 @import "twitter-follow.css";
 
+html {
+    height: 100%;
+}
+
 body {
     font-size: 16px;
     font-family: 'Lora', serif;
+    height: 100%;
 }
 
 .container {
     display: grid;
     /*border: 1px solid blue;*/
     grid-template-columns: 33vw 33vw 33vw;
-    grid-template-rows: 10vh 80vh 10vh;
+    grid-template-rows: 10vh 90vh 10vh;
     grid-template-areas: 
     "hd hd hd"
     "main main main"
     "ft ft ft";
+    height: 100%;
 }
 
 .box {
@@ -61,12 +67,14 @@ header {
 }
 
 .article {
-    display: inline-block;
+    display: flex;
     border: 1px solid black;
     font-family: 'Lora', serif;
     background-color: white;
-    padding: 10px;
-    font-size: 12px;
+    padding: 5px;
+    font-size: 14px;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Content */
@@ -75,31 +83,30 @@ header {
     display: grid;
     grid-template-rows: 25% 25% 25% 25%;
     grid-template-columns: 1fr;
-    grid-gap: 8px;
-    padding: 35px;
+    grid-gap: 4px;
     background-color: white;
 }
 
-@media (min-width: 600px) and (max-width: 900px) {
+@media (min-width: 560px) and (max-width: 900px) {
     /* Content */
     .content-container {
         grid-area: main;
         display: grid;
-        grid-template-rows: 33% 33% 33%;
+        grid-template-rows: 50% 50%;
         grid-template-columns: 1fr 1fr;
-        grid-gap: 25px;
-        padding: 60px;
+        grid-gap: 5px;
         background-color: white;
     }
     
     .article {
-        display: inline-block;
+        display: flex;
         border: 1px solid black;
         font-family: 'Lora', serif;
         background-color: white;
-        padding: 25px;
         font-size: 16px;
-    }
+        align-items: center;
+        justify-content: center;
+    } 
 }
 
 @media (min-width: 901px) {
@@ -109,17 +116,15 @@ header {
         display: grid;
         grid-template-rows:50% 50%;
         grid-template-columns: 1fr 1fr;
-        grid-gap: 35px;
-        padding: 100px;
+        grid-gap: 5px;
         background-color: white;
     }
 
     .article {
-        display: inline-block;
+        display: flex;
         border: 1px solid black;
         font-family: 'Lora', serif;
         background-color: white;
-        padding: 25px;
         font-size: 16px;
     }
 }

@@ -18,7 +18,7 @@ figure {
     max-width: 100px;
     height: auto;
 }
-
+ 
 button {
     font-size: 8px;
     background-color: #FAE6F9;
@@ -28,13 +28,12 @@ button {
 .blog-container{
     grid-area: main;
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 15px;
     padding: 15px;
     background-color: white;
     grid-template-areas: 
-    "ct ct ct"
     "ct ct ct"
     "ct ct ct"
     "ab ar el";
@@ -74,7 +73,7 @@ button {
     font-size: 6px;
 }
 
-@media (min-width: 600px) and (max-width: 900px) {
+@media (min-width: 560px) and (max-width: 900px) {
     /* Content */
     .blog-container{
         grid-area: main;
