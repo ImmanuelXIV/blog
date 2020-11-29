@@ -5,12 +5,10 @@ footer {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    /*grid-template-columns: fr;*/
     background-color: #08a3c2;
 }
 
 .imprint {
-    /*background-color: white;*/
     text-decoration: underline;
     font-size: 12px;
 }

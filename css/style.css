@@ -56,14 +56,12 @@ header {
     color: white;
 }
 
-
 /*Content*/
 .content {
     display: grid;
     grid-area: content;
     flex-direction: column;
     height: 100%;
-
     grid-template-columns: 1fr 1fr auto;
     grid-template-rows: 1fr auto auto;
     grid-template-areas: 
@@ -77,36 +75,27 @@ header {
     border: 1px solid blue;
 }
 
-
-
-
-
-
-
 /*Article Tiles*/
 .article-tiles {
-    /*grid-area: main;*/
     grid-area: 1/1/1/4; 
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /*align-items: center;*/
-    /*grid-template-rows: 25% 25% 25% 25%;*/
-    /*grid-template-columns: 1fr;*/
-    grid-gap: 4px;
+    grid-gap: 10px;
     background-color: white;
+    margin: 7px;
 }
 
 .tile {
-    /*grid-area: art;*/
     display: flex;
     border: 1px solid black;
     font-family: 'Lora', serif;
     background-color: white;
     padding: 5px;
     font-size: 14px;
-    /*align-items: center;*/
+    align-items: center;
     justify-content: center;
+    min-height: 140px;
 }
 
 /*Media Queries

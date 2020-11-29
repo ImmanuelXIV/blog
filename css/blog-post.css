@@ -24,29 +24,11 @@ button {
     background-color: #FAE6F9;
 }
 
-/* Content 
-.blog-container{
-    grid-area: main;
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 15px;
-    padding: 15px;
-    background-color: white;
-    grid-template-areas: 
-    "ct ct ct"
-    "ct ct ct"
-    "ab ar el";
-}
-*/
-
 .blog-post {
     grid-area: art;
     background-color: white;
-    /*display: inline-block;*/
     padding: 10px;
     font-size: 12px;
-    /*border: 1px solid blue;*/
     font-family: 'Lora', serif;
 }
 
