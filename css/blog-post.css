@@ -10,6 +10,20 @@ purple {
     color: purple;
 }
 
+/*Content*/
+.blog-content {
+    display: grid;
+    grid-area: content;
+    flex-direction: column;
+    height: 100%;
+    grid-template-columns: 1fr 1fr auto;
+    grid-template-rows: 1fr auto auto;
+    grid-template-areas: 
+        "art art art"
+        "ab ab ab"
+        "rst-a rst-b rst";
+}
+
 figure {
     text-align: center;
 }

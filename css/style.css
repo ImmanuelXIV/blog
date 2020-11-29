@@ -15,9 +15,9 @@ body {
     display: grid;
     grid-template-rows: auto 1fr auto;
     grid-template-areas: 
-    "header"
-    "content"
-    "footer";
+        "header"
+        "content"
+        "footer";
 }
 
 /* Header */
@@ -57,33 +57,19 @@ header {
 }
 
 /*Content*/
-.content {
-    display: grid;
+.article-content {
+    display: flex;
     grid-area: content;
     flex-direction: column;
     height: 100%;
-    grid-template-columns: 1fr 1fr auto;
-    grid-template-rows: 1fr auto auto;
-    grid-template-areas: 
-    "art art art"
-    "ab ab ab"
-    "rst-a rst-b rst";
+    margin-top: 10px;
+    grid-gap: 10px;
 }
 
+/* necessary?*/
 .box {
     display: flex;
     border: 1px solid blue;
-}
-
-/*Article Tiles*/
-.article-tiles {
-    grid-area: 1/1/1/4; 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    grid-gap: 10px;
-    background-color: white;
-    margin: 7px;
 }
 
 .tile {
@@ -98,44 +84,16 @@ header {
     min-height: 140px;
 }
 
-/*Media Queries
-@media (min-width: 560px) and (max-width: 900px) {
-    .content-container {
-        grid-area: main;
+/*Media Query Medium*/
+@media (min-width: 540px) {
+    .article-content {
         display: grid;
-        grid-template-rows: 50% 50%;
+        grid-area: content;
+        height: 100%;
         grid-template-columns: 1fr 1fr;
-        grid-gap: 5px;
-        background-color: white;
-    }
-    
-    .article {
-        display: flex;
-        border: 1px solid black;
-        font-family: 'Lora', serif;
-        background-color: white;
-        font-size: 16px;
-        align-items: center;
-        justify-content: center;
-    } 
-}
-
-@media (min-width: 901px) {
-    .content-container {
-        grid-area: main;
-        display: grid;
-        grid-template-rows:50% 50%;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 5px;
-        background-color: white;
-    }
-
-    .article {
-        display: flex;
-        border: 1px solid black;
-        font-family: 'Lora', serif;
-        background-color: white;
-        font-size: 16px;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: 
+            "l1 r1"
+            "l2 r2";
     }
 }
-*/
