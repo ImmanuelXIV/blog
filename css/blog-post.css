@@ -45,34 +45,29 @@ button {
     background-color: white;
     display: inline-block;
     padding: 10px;
-    font-size: 6px;
+    font-size: 12px;
     /*border: 1px solid blue;*/
     font-family: 'Lora', serif;
 }
 
-
 .about {
     grid-area: ab;
     background-color: rgb(240, 238, 238);
-    /*display: inline-block;*
-    /*padding: 10px;*/
-    font-size: 6px;
+    padding: 10px;
+    font-size: 12px;
 }
 
 .followus {
     grid-area: rst-a;
     background-color: white;
-    /*display: inline-block;*/
     padding: 10px;
-    font-size: 6px;
+    font-size: 12px;
 }
 
 .archives {
     grid-area: rst-b;
     background-color: white;
-    /*display: inline-block;*/
-    /*padding: 10px;*/
-    font-size: 6px;
+    font-size: 12px;
 }
 
 /*
