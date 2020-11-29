@@ -9,30 +9,20 @@ html {
 body {
     font-size: 16px;
     font-family: 'Lora', serif;
-    height: 100%;
-}
+    border: 1px solid blue;
 
-.container {
+    min-height: 100%;
     display: grid;
-    /*border: 1px solid blue;*/
-    grid-template-columns: 33vw 33vw 33vw;
-    grid-template-rows: 10vh 90vh 10vh;
+    grid-template-rows: auto 1fr auto;
     grid-template-areas: 
-    "hd hd hd"
-    "main main main"
-    "ft ft ft";
-    height: 100%;
-}
-
-.box {
-    display: flex;
-    /*border: 1px solid blue;*/
-    /*font-family: 'Lora', serif;*/
+    "header"
+    "content"
+    "footer";
 }
 
 /* Header */
 header {
-    grid-area: hd;
+    grid-area: header; /*hd*/
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -66,7 +56,45 @@ header {
     color: white;
 }
 
-.article {
+
+/*Content*/
+.content {
+    display: grid;
+    grid-area: content;
+    flex-direction: column;
+    height: 100%;
+
+    grid-template-columns: 1fr 1fr auto;
+    grid-template-rows: 1fr auto auto;
+    grid-template-areas: 
+    "art art art"
+    "ab ab ab"
+    "rst-a rst-b rst";
+}
+
+.box {
+    display: flex;
+    border: 1px solid blue;
+}
+
+
+
+
+
+
+
+/*Article Tiles*/
+.article-tiles {
+    /*grid-area: main;*/
+    display: grid;
+    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-columns: 1fr;
+    grid-gap: 4px;
+    background-color: white;
+}
+
+.tiles {
+    grid-area: art;
     display: flex;
     border: 1px solid black;
     font-family: 'Lora', serif;
@@ -77,18 +105,8 @@ header {
     justify-content: center;
 }
 
-/* Content */
-.content-container {
-    grid-area: main;
-    display: grid;
-    grid-template-rows: 25% 25% 25% 25%;
-    grid-template-columns: 1fr;
-    grid-gap: 4px;
-    background-color: white;
-}
-
+/*Media Queries
 @media (min-width: 560px) and (max-width: 900px) {
-    /* Content */
     .content-container {
         grid-area: main;
         display: grid;
@@ -110,7 +128,6 @@ header {
 }
 
 @media (min-width: 901px) {
-    /* Content */
     .content-container {
         grid-area: main;
         display: grid;
@@ -128,3 +145,4 @@ header {
         font-size: 16px;
     }
 }
+*/

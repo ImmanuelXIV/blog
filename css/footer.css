@@ -1,12 +1,12 @@
 /* Footer */
 footer {
-    grid-area: ft;
+    grid-area: footer;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    grid-template-columns: fr;
-    background-color: #F2F7F8;
+    /*grid-template-columns: fr;*/
+    background-color: #08a3c2;
 }
 
 .imprint {
