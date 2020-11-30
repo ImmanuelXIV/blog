@@ -1,101 +1,107 @@
 <!doctype html>
-<html lang="en"> 
-    <head>
-        <title>MyBlog</title>
-        <meta charset="utf-8"/>
-        <meta name="my first blo website" content="Example" />
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">   
-        <link rel="stylesheet" href="css/style.css">
-        <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport" />
-    </head>
-    <body>
-        <header>
-            <div class="topnav">
-                <a href="#subs">Subscribe</a>
-                <a class="active" href="#myblog">My Blog</a>
-                <a href="#search">
-                    Search
-                </a>
-            </div>
-        </header>
-        <div class="blog-content">
-            <div class="blog-post">
-                <h1>Header h1</h1>
-                <h6>26. Nov, 2020, by Author (CEO)</h6>
-                <p>
-                    <strong>Lorem ipsum</strong> dolor sit amet, <em>eirmod tempor</em> 
-                    invidunt aliquyam erat, sed <u>diam voluptua</u>. At vero eos et accusam
-                    <a href="https://dummy.link">here</a>. Lorem ipsum dolor sit amet, 
-                    erat. <purple>Here some purple text</purple>>. At vero eos et accusam et 
-                    justo duo dolores et ea rebum. 
+<html lang="en">
 
-                    <blockquote cite="https://dummy.link">
-                        <p>
-                            This is a block quote. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam 
-                            nonumy eirmod tempor invidunt ut.
-                        </p>
-                    </blockquote>
+<head>
+    <title>MyBlog</title>
+    <meta charset="utf-8" />
+    <meta name="my first blo website" content="Example" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport" />
+</head>
 
-                    <h2>This is an h2 heading</h2>
-                    At vero eos et <green>here some green text</green> et justo duo dolores et 
-                    ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum 
-                    dolor sit amet.
-                    <h3>h3 Looks like this.</h3>
-                    Stet clita kasd gubergren, no sea <red>here some red text</red> takimata 
-                    sanctus est. Lorem ipsum dolor sit amet.
-                </p>
-                <!--Image-->
-                <figure>
-                    <img src="images/img-dummy.png" alt="Dummy image" id="dummyimg">
-                    <figcaption>This is the image caption.</figcaption>
-                </figure>
-                <!--Tweet-->
-                <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">
-                    Tweet
-                </a>
-                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<body>
+    <header>
+        <!--Navigation-->
+        <topnav>
+            <a href="#subs">Subscribe</a>
+            <a class="active" href="#myblog">My Blog</a>
+            <a href="#search">
+                Search
+            </a>
+        </topnav>
+    </header>
+    <blog>
+        <!--Blog-->
+        <blog-post>
+            <h1>Header h1</h1>
+            <h6>26. Nov, 2020, by Author (CEO)</h6>
+            <p>
+                <strong>Lorem ipsum</strong> dolor sit amet, <em>eirmod tempor</em>
+                invidunt aliquyam erat, sed <u>diam voluptua</u>. At vero eos et accusam
+                <a href="https://dummy.link">here</a>. Lorem ipsum dolor sit amet,
+                erat. <purple>Here some purple text</purple>>. At vero eos et accusam et
+                justo duo dolores et ea rebum.
+
+            <blockquote cite="https://dummy.link">
                 <p>
-                    Some final text here.
+                    This is a block quote. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+                    nonumy eirmod tempor invidunt ut.
                 </p>
-                <!--Button-->
-                <button onclick="location.href='index.html'" type="button">
-                    Go back.
-                </button>                    
-            </div>
-            <!--About-->
-            <div class="about">
-                <p>
-                    <h2>About</h2>
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
-                    sed diam nonumy eirmod tempor. Lorem ipsum dolor sit amet, 
-                    consetetur sadipscing elitr, sed diam nonumy eirmod tempor.
-                </p>
-            </div>
-            <!--Archives-->
-            <div class="archives">
-                <p>
-                    <h2>Archives</h2>
-                    <a href="https://dummy.link">November 2020</a><br>
-                    <a href="https://dummy.link">October 2020</a><br>
-                    <a href="https://dummy.link">September 2020</a><br>
-                    <a href="https://dummy.link">August 2020</a>
-                </p>
-            </div>
-            <!--Follow us-->
-            <div class="followus">
-                <p>
-                    <h2>Follow us</h2>
-                    <a href="https://dummy.link">GitHub</a><br>
-                    <a href="https://dummy.link">LinkedIn</a><br>
-                    <a href="https://dummy.link">Facebook</a><br>
-                    <a href="https://dummy.link">Twitter</a>
-                </p>
-            </div>
-        </div>
-        <footer>
-            <div class="imprint box">Imprint</div>
-        </footer>
-    </body>
-    
+            </blockquote>
+
+            <h2>This is an h2 heading</h2>
+            At vero eos et <green>here some green text</green> et justo duo dolores et
+            ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum
+            dolor sit amet.
+            <h3>h3 Looks like this.</h3>
+            Stet clita kasd gubergren, no sea <red>here some red text</red> takimata
+            sanctus est. Lorem ipsum dolor sit amet.
+            </p>
+            <!--Image-->
+            <figure>
+                <img src="images/img-dummy.png" alt="Dummy image" id="dummyimg">
+                <figcaption>This is the image caption.</figcaption>
+            </figure>
+            <!--Tweet-->
+            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button"
+                data-show-count="false">
+                Tweet
+            </a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <p>
+                Some final text here.
+            </p>
+            <!--Button-->
+            <button onclick="location.href='index.html'" type="button">
+                Go back.
+            </button>
+        </blog-post>
+        <!--About-->
+        <about>
+            <p>
+            <h2>About</h2>
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+            sed diam nonumy eirmod tempor. Lorem ipsum dolor sit amet,
+            consetetur sadipscing elitr, sed diam nonumy eirmod tempor.
+            </p>
+        </about>
+        <!--Archives-->
+        <archives>
+            <p>
+            <h2>Archives</h2>
+            <a href="https://dummy.link">November 2020</a><br>
+            <a href="https://dummy.link">October 2020</a><br>
+            <a href="https://dummy.link">September 2020</a><br>
+            <a href="https://dummy.link">August 2020</a>
+            </p>
+        </archives>
+        <!--Follow us-->
+        <followus>
+            <p>
+            <h2>Follow us</h2>
+            <a href="https://dummy.link">GitHub</a><br>
+            <a href="https://dummy.link">LinkedIn</a><br>
+            <a href="https://dummy.link">Facebook</a><br>
+            <a href="https://dummy.link">Twitter</a>
+            </p>
+        </followus>
+    </blog>
+    <!--Footer-->
+    <footer>
+        <div class="imprint box">Imprint</div>
+    </footer>
+</body>
+
 </html>

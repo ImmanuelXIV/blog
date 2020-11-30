@@ -10,8 +10,7 @@ purple {
     color: purple;
 }
 
-/*Content*/
-.blog-content {
+blog {
     display: grid;
     grid-area: content;
     flex-direction: column;
@@ -38,7 +37,7 @@ button {
     background-color: #FAE6F9;
 }
 
-.blog-post {
+blog-post {
     grid-area: art;
     background-color: white;
     padding: 10px;
@@ -46,102 +45,22 @@ button {
     font-family: 'Lora', serif;
 }
 
-.about {
+about {
     grid-area: ab;
     background-color: rgb(240, 238, 238);
     padding: 10px;
     font-size: 12px;
 }
 
-.followus {
+followus {
     grid-area: rst-a;
     background-color: white;
     padding: 10px;
     font-size: 12px;
 }
 
-.archives {
+archives {
     grid-area: rst-b;
     background-color: white;
     font-size: 12px;
 }
-
-/*
-@media (min-width: 560px) and (max-width: 900px) {
-    .blog-container{
-        grid-area: main;
-        display: grid;
-        grid-template-rows: 1fr 1fr 1fr;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-gap: 15px;
-        padding: 35px;
-        background-color: white;
-        grid-template-areas: 
-        "ct ct ab"
-        "ct ct ar"
-        "ct ct el";
-    }
-
-    .blog-post {
-        font-size: 14px;
-    }
-
-    .about {
-        font-size: 14px;
-    }
-
-    .archives {
-        text-align: right;
-        font-size: 14px;
-    }
-
-    .followus {
-        font-size: 14px;
-        text-align: right;
-    }
-
-    #dummyimg {
-        max-width: 150px;
-        height: auto;
-    }
-}
-
-@media (min-width: 901px) {
-    .blog-container{
-        grid-area: main;
-        display: grid;
-        grid-template-rows: 1fr 1fr 1fr;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-gap: 15px;
-        padding: 18px;
-        background-color: white;
-        grid-template-areas: 
-        "ct ct ab"
-        "ct ct ar"
-        "ct ct el";
-    }
-
-    .blog-post {
-        font-size: 12px;
-    }
-
-    .about {
-        font-size: 12px;
-    }
-
-    .archives {
-        text-align: right;
-        font-size: 12px;
-    }
-
-    .followus {
-        font-size: 12px;
-        text-align: right;
-    }
-
-    #dummyimg {
-        max-width: 100px;
-        height: auto;
-    }
-}
-*/
