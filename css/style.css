@@ -23,14 +23,12 @@ header {
     grid-area: header;
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     grid-template-columns: 1fr 1fr 1fr;
     background-color: white;
 }
 
 topnav {
-    overflow: hidden;
     background-color: white;
 }
   
