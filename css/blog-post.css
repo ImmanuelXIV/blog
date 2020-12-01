@@ -63,8 +63,10 @@ followus {
 
 /*
 @media (min-width: 1100px) {
-    blog {
+    main-container {
         width: 80%;
+        justify-content: center;
+        align-items: center;
     }
 }
 */
