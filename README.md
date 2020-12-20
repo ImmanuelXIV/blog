@@ -1,8 +1,9 @@
 # Basic HTML and CSS Blog
 In this repository I build a very basic web blog from scratch in HTMl and CSS. The blog contains only two pages - a landing/home page and one blog article page. The design is clean and responsive to small, medium and large screen sizes. The blog looks like this:
 
-![Home screen](images/home-screen.png)
-![Blog post screen](images/blog-post-screen.png)
+Home screen             |  Blog post screen
+:-------------------------:|:-------------------------:
+![Home screen](images/home-screen.png)  |  ![Blog post screen](images/blog-post-screen.png)
 
 Clone it and extend it as you like to learn more about HTML and CSS!
 
